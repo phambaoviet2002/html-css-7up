@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css.css" rel="stylesheet" />
+</head>
+<body>
+    <nav>
+        
+        <img  src="Logo.png" alt="" />
+        <div id="menu">
+            <ul >
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="sanpham.html">Sản phẩm</a></li>
+                <li><a href="form.html">From</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="st_1">
+        <img id="anh" src="anh1.jpg" alt="" />
+        <button id="anh1" onclick="anh1()"></button>
+        <button id="anh2" onclick="anh2()"></button>
+        <button id="anh3" onclick="anh3()"></button>
+        <button id="anh4" onclick="anh4()"></button>
+        
+    </section>
+    <section id="st_2">
+        <h2>SEVEN UP</h2>
+        <P>
+            Thời kỳ đỉnh cao của 7-Up là vào thập niên 70, khi đó 7-Up là nhãn hiệu bán chạy nhất<br>
+            trong thị trường vào năm 1972 nhờ chiến dịch quảng cáo tập trung vào hương vị của mình.<br>
+            Mọi người đều biết đến 7-Up như một loại nước giải khát đem lại cảm giác sảng khoái, mát lạnh.<br>
+        </P>
+        <img src="colokit.png" alt="" />
+        <a href="#" >Join With Us</a>
+    </section>
+    
+    <section id="st_3">
+        <h2>NEW PRODUCT OF US</h2>
+        <div id="wrapper">
+            <div id="diving">
+                <div class="container">
+                    <img src="k1.jpg" alt="" id="z1" class="anh" onmouseover="sk1()" onmouseout="sk11()" > 
+                    <div class="text-block" id="a1">
+                       <p>GIAI KHAC 7UP</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <img src="k2.jpg" alt="" id="z2" class="anh" onmouseover="sk2()" onmouseout="sk22()">
+                    <div class="text-block" id="a2">
+                        <P>GIAI KHAC 7UP</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <img src="k3.jpg" alt="" id="z3" class="anh" onmouseover="sk3()" onmouseout="sk33()">
+                    <div class="text-block" id="a3">
+                        <p>GIAI KHAC 7UP</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <img src="k4.jpg" alt="" id="z4" class="anh" onmouseover="sk4()" onmouseout="sk44()">
+                    <div class="text-block" id="a4">
+                        <p>GIAI KHAC 7UP</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <img src="k5.jpg" alt="" id="z5" class="anh" onmouseover="sk5()" onmouseout="sk55()">
+                    <div class="text-block" id="a5">
+                        <p>GIAI KHAC 7UP</p>
+                    </div>
+                  </div>
+                  <div class="container">
+                    <img src="k6.jpg" alt="" id="z6" class="anh" onmouseover="sk6()" onmouseout="sk66()">
+                    <div class="text-block" id="a6">
+                        <p>GIAI KHAC 7UP</p>
+                    </div>
+            </div>
+        </div>
+        <div class="iconL" onclick="prev1()"><i id="icl" class="material-icons" style="font-size:48px;color:red">keyboard_arrow_left</i></div>
+        <div class="iconR" onclick="next1()"><i id="icr" class="material-icons" style="font-size:48px;color:red">keyboard_arrow_right</i></div>
+        </div>
+            
+                <a href="#" >7UP DANANG</a>
+    </section>
+    
+    <section id="st_5">
+        <h2>From Our Blog</h2>
+        <div id="ct1">
+             <img src="blog1.jpg" alt="" /> 
+            <a href="#" > <h4>Up tiến độ phiêu sảng khoái</h4> </a>
+            <i id="aa1" class="material-icons" style="font-size:25px">chat_bubble</i>
+            <i id="bb1" class="material-icons" style="font-size:25px">favorite_border</i>
+            <i id="cc1" class="material-icons" style="font-size:25px">remove_red_eye</i>
+        </div>
+        <div id="ct2">
+            <img src="blog2.jpg" alt="" />
+            <a href="#" > <h4>Up tiến độ phiêu sảng khoái</h4> </a>
+            <i id="aa2" class="material-icons" style="font-size:25px">chat_bubble</i>
+            <i id="bb2" class="material-icons" style="font-size:25px">favorite_border</i>
+            <i id="cc2" class="material-icons" style="font-size:25px">remove_red_eye</i>
+        </div>
+        <div id="ct3">
+            <img src="blog3.jpg" alt="" />
+            <a href="#"><h4>Up tiến độ phiêu sảng khoái</h4></a>
+            <i id="aa3" class="material-icons" style="font-size:25px">chat_bubble</i>
+            <i id="bb3" class="material-icons" style="font-size:25px">favorite_border</i>
+            <i id="cc3" class="material-icons" style="font-size:25px">remove_red_eye</i>
+        </div>
+        <a href="#" id="vm" >VIEW MORE</a>
+    </section>
+
+    <script type="text/javascript">
+        function anh1(){
+        var  anh1=document.getElementById("anh");
+          anh1.src= "anh1.jpg"
+      }
+
+      function anh2(){
+        var  anh2=document.getElementById("anh");
+          anh2.src= "anh2.jpg"
+      }
+      function anh3(){
+        var  anh3=document.getElementById("anh");
+          anh3.src= "anh3.jpg"
+      }
+      function anh4(){
+        var  anh4=document.getElementById("anh");
+          anh4.src= "anh4.jpg"
+      }
+
+      
+
+      var index = 1;
+
+      function next(){
+        var  imgs = ["anh1.jpg","anh2.jpg","anh3.jpg","anh4.jpg"]
+
+        document.getElementById("anh").src=imgs[index];
+        index++;
+        if(index==4){
+            index=0;
+        }
+      }
+
+      function back(){
+        var  imgs = ["anh4.jpg","anh3.jpg","anh2.jpg","anh1.jpg"]
+
+        document.getElementById("anh").src=imgs[index];
+        index++;
+        if(index==4){
+         index=0;
+}
+        }
+        setInterval(next,5000)
+
+       
+        
+
+        function sk1(){
+          document.getElementById("a1").style.display = "block";
+          document.getElementById("z1").style.transform = "scale(1.5)";
+          
+        }
+
+        function sk11() {
+            document.getElementById("a1").style.display = "none"
+            document.getElementById("z1").style.transform = "scale(1)";
+           
+        }
+
+        function sk2(){
+          document.getElementById("a2").style.display = "block";
+          document.getElementById("z2").style.transform = "scale(1.5)";
+          
+        }
+
+        function sk22() {
+            document.getElementById("a2").style.display = "none"
+            document.getElementById("z2").style.transform = "scale(1)";
+            
+        }
+
+        function sk3(){
+          document.getElementById("a3").style.display = "block";
+          document.getElementById("z3").style.transform = "scale(1.5)";
+         
+        }
+
+        function sk33() {
+            document.getElementById("a3").style.display = "none"
+            document.getElementById("z3").style.transform = "scale(1)";
+            
+        }
+
+        function sk4(){
+          document.getElementById("a4").style.display = "block";
+          document.getElementById("z4").style.transform = "scale(1.5)";
+      
+        }
+
+        function sk44() {
+            document.getElementById("a4").style.display = "none"
+            document.getElementById("z4").style.transform = "scale(1)";
+          
+        }
+
+        function sk5(){
+          document.getElementById("a5").style.display = "block";
+          document.getElementById("z5").style.transform = "scale(1.5)";
+          
+        }
+
+        function sk55() {
+            document.getElementById("a5").style.display = "none"
+            document.getElementById("z5").style.transform = "scale(1)";
+           
+        }
+
+        function sk6(){
+          document.getElementById("a6").style.display = "block";
+          document.getElementById("z6").style.transform = "scale(1.5)";
+        
+        }
+
+        function sk66() {
+            document.getElementById("a6").style.display = "none"
+            document.getElementById("z6").style.transform = "scale(1)";
+            
+        }
+        
+        function prev1() {
+        var myimg = document.getElementById("diving");
+        var child = myimg.children[0];
+
+        myimg.removeChild(child);
+        myimg.appendChild(child);
+    }
+
+    function next1() {
+        var myimg = document.getElementById("diving");
+        var child = myimg.children[0];
+
+        myimg.removeChild(child);
+        myimg.appendChild(child);
+    }
+   
+    </script>
+</body>
+</html>
