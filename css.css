@@ -1,0 +1,353 @@
+ body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav{
+            width: 100vw;
+            height: 100px;
+            background-color: #a4dee4;
+            position: relative;
+            position: relative;
+            margin-top: -7px;
+        }
+        nav img{
+            width: 150px;
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 100px;
+        }
+        #menu{
+            width: 1137px;
+            height: 100px;
+            background-color: #ebce3e;
+            position: absolute;
+            top: 0px;
+            left: 400px;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+        }
+        li{
+            padding-left: 30px;
+            color: white;
+            position: relative;
+            top: 25px;
+            left: 50px;
+        }
+        #anh{
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        #anh1{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #a4dee4;
+            position: absolute;
+            bottom: 5px;
+            left: 700px;
+        }
+        #anh2{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #a4dee4;
+            position: absolute;
+            bottom: 5px;
+            left: 730px;
+        }
+        #anh3{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #a4dee4;
+            position: absolute;
+            bottom: 5px;
+            left: 760px;
+        }
+        #anh4{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #a4dee4;
+            position: absolute;
+            bottom: 5px;
+            left: 790px;
+        }
+        #n{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #005891;
+            position: absolute;
+            bottom: 200px;
+            right: 10px;
+        }
+        #b{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #005891;
+            position: absolute;
+            bottom: 200px;
+            left:  20px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        #st_2{
+            width: 100vw;
+            height: 500px;
+            background-color: #a4dee4;
+            position: relative;
+            margin-top: -5px;
+        }
+        #st_2 img{
+            position: absolute;
+            width: 300px;
+            top:100px;
+            right: 200px;
+        }
+        #st_2 h2{
+            position: absolute;
+            top: 5px;
+            left: 120px;
+            font-size: 30px;
+        }
+        #st_2 p{
+            position: absolute;
+            top: 170px;
+            left: 120px;
+            font-size: 20px;
+        }
+        #st_2 a{
+            position: absolute;
+            top: 300px;
+            left: 120px;
+            text-decoration: none;
+            border: 1px solid black;
+            width: 90px;
+            height: 20px;
+            padding: 15px 15px;
+            background-color: #f16969;
+            color: #005891;
+            font-size: 16px;
+        }
+        #st_3{
+            width: 100vw;
+            height: 100vh;
+            background-color: #ebce3e;
+            
+        }
+        .anh{
+            width: 300px;
+            height: 300px;
+            
+            
+        }
+        #wrapper{
+    width: 1150px;
+    height: 300px;
+    
+    position: relative;
+    
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
+    
+            
+            position: relative;
+            top: 300px;
+            
+            
+}
+            #icl{
+                position: absolute;
+                left: 0px;
+                top: 110px;
+            }
+
+            #icr{
+                position: absolute;
+                right: 0px;
+                top: 110px;
+            }
+            i:hover{
+                cursor: pointer;
+            }
+            .container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            float: left;
+            
+            margin-left: 58px;
+            overflow: hidden;
+            
+            }
+
+/* Bottom right text */
+            .text-block {
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            width: 300PX;
+            
+            }
+            #a1 , #a2 , #a3 , #a4 , #a5 , #a6 , #a7 , #a8 , #a9, #a10{display: none;}
+            #trum:hover{
+                border: 5px solid yellow;
+            }
+
+            #st_3{position: relative;}
+            #st_3 h2{
+                
+                position: absolute;
+                top:100px;
+                left: 40%;
+                font-size: 25px;
+            }
+            #st_3 a{
+                text-decoration: none;
+            border: 1px solid black;
+            width: 130px;
+            height: 20px;
+            padding: 15px 15px;
+            background-color: #f16969;
+            font-size: 16px;
+            color: black;
+            position: absolute;
+            bottom: 30px;
+            left: 45%;
+            }
+        
+            #st_5{
+                background-color: #a4dee4;
+                width: 100vw;
+                height: 100vh;
+                position: relative;
+            }
+            #st_5 h2{
+                position: absolute;
+                top:100px;
+                left: 45%;
+            }
+
+            #st_5 #vm{
+                text-decoration: none;
+            border: 1px solid black;
+            width: 100px;
+            height: 20px;
+            padding: 15px 25px;
+            background-color: #eadb5a;
+            color: #005891;
+            position: absolute;
+            bottom: 30px;
+            left: 45%;
+            }
+            #ct1 {
+                background-color: white;
+                width: 300px;
+                height: 300px;
+                position: relative;
+                border: 1px solid red;
+                position: absolute;
+                top: 210px;
+                left: 15%;
+            }
+            #ct2 {
+                background-color: white;
+                width: 300px;
+                height: 300px;
+                position: relative;
+                border: 1px solid red;
+                position: absolute;
+                top: 210px;
+                left: 40%;
+            }
+            #ct3 {
+                background-color: white;
+                width: 300px;
+                height: 300px;
+                position: relative;
+                border: 1px solid red;
+                position: absolute;
+                top: 210px;
+                left: 65%;
+            }
+            #ct1 img{
+                width: 300px;
+                height: 160px;
+                position: absolute;
+                top: 0px;
+            }
+            #ct2 img{
+                width: 300px;
+                height: 160px;
+                position: absolute;
+                top: 0px;
+            }
+            #ct3 img{
+                width: 300px;
+                height: 160px;
+                position: absolute;
+                top: 0px;
+            }
+            h4{
+                position: absolute;
+                top: 150px;
+                
+                font-size: 30px;
+                color: black;
+            }
+             #ct1 #aa1{
+                position: absolute;
+                bottom: 5px;
+                left: 40%;
+            }
+            #ct1 #bb1{
+                position: absolute;
+                bottom: 5px;
+                left: 15%;
+            }
+            #ct1 #cc1{
+                position: absolute;
+                bottom: 5px;
+                left: 65%;
+            }
+            #ct2 #aa2{
+                position: absolute;
+                bottom: 5px;
+                left: 40%;
+            }
+            #ct2 #bb2{
+                position: absolute;
+                bottom: 5px;
+                left: 15%;
+            }
+            #ct2 #cc2{
+                position: absolute;
+                bottom: 5px;
+                left: 65%;
+            }
+            #ct3 #aa3{
+                position: absolute;
+                bottom: 5px;
+                left: 40%;
+            }
+            #ct3 #bb3{
+                position: absolute;
+                bottom: 5px;
+                left: 15%;
+            }
+            #ct3 #cc3{
+                position: absolute;
+                bottom: 5px;
+                left: 65%;
+            }
